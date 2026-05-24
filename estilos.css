@@ -1,0 +1,134 @@
+body {
+      background-color: rgb(201, 205, 206);
+    }
+h1 {
+    text-align: center;
+    font-family: "montserrat";
+    font-weight: 400;
+    margin-top: 0.5cm;
+  }
+.h1{
+  text-align: center;
+  font-family:"poppins";
+  font-weight: 400%;
+  width: 400;
+}
+h2{
+  text-align: center;
+  font-family: "montserrat";
+  font-size: 230%;
+  margin-top: 1cm;
+}
+p {
+    font-size: 150%;
+    text-align:center;
+    color:black;
+    font-family:poppins;
+
+  }
+.conteudo {
+ margin-bottom: 10%;
+ text-align: center;
+}
+  .info{
+  font-size: 170%;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  color: black;
+  font-family:"Open Sans";
+  width: 80%;
+  text-align: justify;
+  margin: 1em auto;
+}
+.img{
+  width: 18cm;
+  margin: 4cm 0 0 19cm;
+  /* //margin-left: 21%; */
+  
+
+}
+.img2{
+  width: 28cm;
+  margin-top:10%;
+ 
+
+  /* margin-left: 27%; */
+
+}
+.img3{
+  width: 7%;
+  float: left;
+  
+  margin-left: 0;
+
+}
+
+nav {
+  color:rgb(57, 132, 167);
+  transition: all 0.3s ease;
+  position:absolute;
+  margin-top: -0.4%;
+  right: 0;
+  background-color: rgb(45, 183, 183);
+  width: 100%;
+
+}
+nav ul{
+  list-style: none;
+  padding: 0% 0 0 5em;
+  margin: 2.5em 0 0 50em;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1em;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  font-size: 2em;
+  float: none;
+  padding-left: 2em;
+
+}
+
+nav ul li a:hover{
+  color:rgb(31, 31, 177);
+
+}
+
+#cabecalho{
+  background-color: aqua;
+  padding:1em;
+  max-width: 30%;
+  min-width: 0;
+}
+
+
+.section{
+  display: flex;
+}
+.card{
+  border: 0.1em solid #bdbaba;
+  border-radius: 0.4em;
+  padding: 1em;
+  margin: 1em;
+  width: 28%;
+  text-align: center;
+  transition: all 0.5s;
+  background-color: rgb(188, 185, 185);
+  display: inline-block;
+  
+}
+
+.card img{
+  width: 75%;
+}
+
+.card:hover{
+  box-shadow: 0.3em 0.3em 0.9em #767575
+}
+
+
