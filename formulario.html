@@ -8,6 +8,7 @@
     <meta name="keywords" content="bebê, loja, artigos, moda infatil">
     <title>Document</title>
     <link rel="stylesheet" href="estilos.css">
+    <title>Formulário</title>
 </head>
 <body>
      <header>    
@@ -32,7 +33,50 @@
         <label for="email">Email:</label>
         <input type="text" id="email" name="email" required>
 
-        <label>Assunto</label>
+        <label for="numero">Numero de celular:</label>
+        <input type="number" id="numero" name="numero" required>
+
+        <label>Assunto:</label>
+        <select name="assunto">
+            <option value="elogio">Elogio</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamaçao">Reclamação</option>
+        </select>
+        <label>Avaliação da Marca</label>
+        <input type="radio" name="nota" value="1">1
+        <input type="radio" name="nota" value="2">2
+        <input type="radio" name="nota" value="3">3
+        <input type="radio" name="nota" value="4">4
+        <input type="radio" name="nota" value="5">5
+
+        <label>Avaliação das Categoria</label>
+        <input name="roupas">Roupas:
+        <input type="radio" name="nota" value="1">1
+        <input type="radio" name="nota" value="2">2
+        <input type="radio" name="nota" value="3">3
+        <input type="radio" name="nota" value="4">4
+        <input type="radio" name="nota" value="5">5
+
+        <input name="moveis">Móveis:
+        <input type="radio" name="nota" value="1">1
+        <input type="radio" name="nota" value="2">2
+        <input type="radio" name="nota" value="3">3
+        <input type="radio" name="nota" value="4">4
+        <input type="radio" name="nota" value="5">5
+
+        <input name="acessorios">Acessórios:
+        <input type="radio" name="nota" value="1">1
+        <input type="radio" name="nota" value="2">2
+        <input type="radio" name="nota" value="3">3
+        <input type="radio" name="nota" value="4">4
+        <input type="radio" name="nota" value="5">5
+
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+
+        <input type="submit" value="enviar">
+        <input type="reset" value="limpar">
            
         
     </form>
