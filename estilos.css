@@ -1,5 +1,5 @@
 body {
-      background-color: rgb(201, 205, 206);
+      background-color: rgb(234, 231, 232);
     }
 h1 {
     text-align: center;
@@ -7,12 +7,7 @@ h1 {
     font-weight: 400;
     margin-top: 0.5cm;
   }
-.h1{
-  text-align: center;
-  font-family:"poppins";
-  font-weight: 400%;
-  width: 400;
-}
+
 h2{
   text-align: center;
   font-family: "montserrat";
@@ -40,14 +35,32 @@ p {
   text-align: justify;
   margin: 1em auto;
 }
-.img{
+.info2{
+  font-size: 170%;
+  margin-left: 2cm;
+  margin-right: 2cm;
+  color: black;
+  font-family:"Open Sans";
+  width: 80%;
+  text-align: center;
+  margin: 1em auto;
+
+}
+.img-fabrica{
+  border-radius: 1em;
+  display: block;
+  margin: 0 auto;
+  width: 45%;
+}
+.imglogo{
   width: 18cm;
   margin: 4cm 0 0 19cm;
+    
   /* //margin-left: 21%; */
   
 
 }
-.img2{
+.imgbebes{
   width: 28cm;
   margin-top:10%;
  
@@ -111,14 +124,14 @@ nav ul li a:hover{
   display: flex;
 }
 .card{
-  border: 0.1em solid #bdbaba;
+  border: 0.1em solid #c9a491;
   border-radius: 0.4em;
   padding: 1em;
-  margin: 1em;
+  margin: 2.3em;
   width: 28%;
   text-align: center;
   transition: all 0.5s;
-  background-color: rgb(188, 185, 185);
+  background-color: rgba(193, 168, 158, 0.835);
   display: inline-block;
   
 }
@@ -130,5 +143,28 @@ nav ul li a:hover{
 .card:hover{
   box-shadow: 0.3em 0.3em 0.9em #767575
 }
+figure{
+  margin: 0 auto;
+  text-align: center;
+}
+.contato{
+  
+  text-align:center;
+  width: 100%;
+  background-color: #bdbaba;
+  padding: 2em;
+  margin-top: 3em;
+
+}
+.contato a{
+  text-decoration: none;
+}
+.contato a:hover{
+  text-decoration: underline;
+}
+aside{
+  text-align: center;
+}
+
 
 
