@@ -1,78 +1,131 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>index.html</title>
-  <style>
-    body {
-      background-color: rgb(231, 235, 236);
-    }
-    h1 {
-      text-align: center;
-      font-family: "montserrat";
-      font-weight: 40%;
-      margin-top: 0.5cm;
-    }
-    h2{
-      text-align: center;
-      font-family: "montserrat";
-      font-weight: 30%;
-      margin-top: 1cm;
-    }
-    p {
-        font-size: 150%;
-        text-align:center;
-        color:black;
-        font-family:poppins;
-
-     }
-    .info{
-      font-size: 130%;
-      text-align: left;
-      margin-left: 2cm;
-      margin-right: 2cm;
-      color: black;
-      font-family:open;
-
-    }
-    .img{
-      width: 28cm;
-      margin-top: 0.5;
-      margin-left: 21%;
-     
-
-    }
-    .img2{
-      width: 25cm;
-      margin-top: 3cm;
-      align-self: center;
-      margin-left: 20%;
-    }
-    
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Loja de artigos para bebês">
+    <meta name="author" content="Emanuel">
+    <meta name="keywords" content="bebê, loja, artigos, moda infatil">
+    <title>Produtos</title>
+    <link rel="stylesheet" href="estilos.css">
 </head>
-<body style="background-color: rgba(201, 201, 201, 0.911);">
-  <img  src="my_baby_store.png" class="img"/>
-  <h1>A loja para o seu bebê, onde todo zelo e qualidade são garantidos.</h1>
-  <img src="bebes_felizes.png" class="img2"/>
-  <br></br>
-  <br></br>
-  <p ><strong>Seja bem vindo a My Baby store, aqui você irá encontrar tudo o que o seu bebê precisa.</strong></p>
-  <br></br>
-  <p class="info">Nós da My Baby Store temos o empenho e carinho por realizar o melhor trabalho possível, pois desde a criação da empresa temos um pilar fundamental, que é o zelo pela qualidade dos nossos produtos.</p>
-  <br></br>
-  <h2>Nossa História</h2>
-  <p class="info">A My Baby Store  é uma empresa que tem história no mercado, sendo por anos um marco no e-comerce de artigos para os pequeninos.</p>
-  <p class="info">Ela foi criada  em 03 de outubro de 2032, por Emanuel de Almeida Machado e  sua esposa Lívia Vergara Rodrigues, com o intuito inicial de auxiliar na compra e venda de artigos para bebês, pois eles notaram o quão díficil e cansativo era escolher produtos para bebês. Entre tantas opções, tamanhos, marcas, era algo exxtremamente cansativo procura um pouco em cada lugar</p>
-  <p class="info">Eles sentiram que faltava algo para ajudar os pais nisso, algo que transmitisse segurança, deelicadeza e carinhos e apartir daí que ssurge a ideia de cria a My Baby Store. A My Baby Store era de início apenas um site, que apenas servia de ponte de comércio. Porém ao longo dos anos a My Baby Store foi crescendo no mercado e ela foi ganhando reconhecimento e através disso, eles perceberam que poderiam torná-la uma loja, um espaço onde os pais e familhiares pudesssem enconntrar produtos feitos com cuidado, qualidade e amor.</p>
-  
-  // aqui em baixo cita sobre a criação da fabrica//
+<body>
+    <header>    
+        <nav>
+          <img src="my_baby_store.png" class="img3">
+            <ul>
+                <li><a href="geral.html">Início</a></li>
+                 <li><a href="produtos.html" class="ativa">Produtos</a></li>
+              <li><a href="tabela.html" >Produtos  mais vendidos</a></li>
+                <li> <a href="Sobre-nos.html">Nossa historia</a></li>
+                <li><a href="formulario.html">Contatos</a></li>
+                
+            </ul>
 
-  <p class="info">Em meados de 2035, Emanuel e Lívia decidiram dar o seu primeiro passo ousado, eles decidiram tornar a My Baby Store uma marca, um legado e assim eles a tornaram uma marca oficial, tendo a sua propria fonte de fabricação de produtos.</p>
-  <p class="info">Este passo foi dado com cuidado e com dedicação e nesse passo foi onde surgiu a primeira fábrica de produtos da  My Baby Store. A primeira fábrica foi construída em Pelotas, ela foi um marco, pois  gerou inumeros  empregos e trouxe mais olhares para a cidade.Após esse primeiro passo, nosso fundador buscava melhorar </p>
-  </p>
+        </nav>
+    </header>
+    <img src="my_baby_store.png" class="imglogo">
+    <br>
+    <br>
+    <br>
+    <h2>Nossos produtos</h2>
+    <div class="li">
+    <ol>
+        <li> 
+            <br>
+            <figure class="card">
+            <img src="camisa_menina2.jpg" alt="camisa infantil feminina">
+            <figcaption>
+                <h3>camisa infantil feminina</h3>
+                <p>R$20,00</p>
+            </figcaption>
+        </figure>
+    </li>
+    
+    <p class="info">Camisa feita com muito amor e carinho, feita  exclusivamente objetivando o conforto e a beleza.</p>
+    <br>
+    <br>
+    <br>
+    <br>
 
-  <p>teste para commit novo do github do emanuel!!! :p</p>
+    <li>
+        <br>
+    <figure class="card1">
+            <img src="conjunto.jpg" alt="conjunto infantil">
+            <figcaption>
+                <h3>conjunto infant</h3>
+                <p>R$120,00</p>
+            </figcaption>
+        </figure>
+        <p class="info">O conjunto perfeito para a beleza do seu bebê.</p>
+        </li>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <li>
+            <br>
+             <figure class="card">
+            <img src="berco.jpg" alt="berço infantil">
+            <figcaption>
+                <h3>berço infantil</h3>
+                <p>R$550,00</p>
+            </figcaption>
+        </figure>
+        <p class="info">Segurança e conforto em um só lugar.</p>
+
+        </li>
+        <br>
+        <br>
+        <br>
+        <br>
+        <li>
+            <figure class="card1">
+            <img src="mamadeira2.jpg" alt="mamadeira">
+            <figcaption>
+                <h3>Mamadeira</h3>
+                <p>R$23,00</p>
+            </figcaption>
+        </figure>
+        <p class="info">Objeto mais especial pro seu bebê.</p>
+        </li>
+        <br>
+        <br>
+        <br>
+        <br>
+        <li>
+            <br>
+             <figure class="card">
+            <img src="chupeta.jpg" alt="chupeta">
+            <figcaption>
+                <h3>Chupeta</h3>
+                <p>R$6,00</p>
+            </figcaption>
+        </figure>
+        <p class="info">Pequeno objeto, grande ligação com o seu bebê.</p>
+        </li>
+        <br>
+        <br>
+        <br>
+        <br>
+        <li>
+            <br>
+            <section>
+        <figure class="card1">
+            <img src="camisa_menina.jpg" alt="camisa infantil feminina">
+            <figcaption>
+                <h3>camisa infantil feminina</h3>
+                <p>R$22,50</p>
+            </figcaption>
+        </figure>
+        <p class="info">Leva encanto e charme por onde passa.</p>
+        </li>
+
+
+
+    </ol>
+    </div>
+    
 </body>
 </html>
