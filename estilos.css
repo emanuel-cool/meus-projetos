@@ -375,7 +375,7 @@ nav ul li a.ativa{
   transition: all 0.5s;
   background-color: rgba(193, 168, 158, 0.835);
   display: inline-block;
-  transition:3s;
+  transition:2s;
   
 }
 .card1{
@@ -504,4 +504,3 @@ table td{
 .li{
   font-size:130% ;
 }
-.p
