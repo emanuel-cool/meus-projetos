@@ -166,5 +166,44 @@ aside{
   text-align: center;
 }
 
+form label{
+  display: block;
 
+}
+form{
+  width: 50%;
+  margin: 0 auto;
+}
 
+form input{
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+form select{
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+
+}
+
+form textarea{
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+  display:inline;
+  width: auto;
+}
+
+nav ul li a.ativa{
+  background-color:rgb(182, 46, 132);
+  color:white
+}

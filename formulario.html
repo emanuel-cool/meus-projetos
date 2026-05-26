@@ -6,9 +6,8 @@
         <meta name="description" content="Loja de artigos para bebês">
     <meta name="author" content="Emanuel">
     <meta name="keywords" content="bebê, loja, artigos, moda infatil">
-    <title>Document</title>
+    <title>Formulário</title> 
     <link rel="stylesheet" href="estilos.css">
-    <title>Formulário</title>
 </head>
 <body>
      <header>    
@@ -17,6 +16,7 @@
             <ul>
               <li><a href="geral.html">Início</a></li>
                 <li> <a href="Sobre-nos.html">Nossa historia</a></li>
+                <li><a href="formulario.html" class="ativa">Contatos</a></li>
               
                 
             </ul>
@@ -24,24 +24,19 @@
         </nav>
         </header>
     <img src="my_baby_store.png" class="imglogo"/>
-    <p class="info2">Como foi a sua experiencia com a nossa marcca?</p>
+    <p class="info2">Como foi a sua experiencia com a nossa marca?</p>
     <p class="info2">Conte-nos abaixo.</p>
-    <form>
+    <form class="campo">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome"required>
 
         <label for="email">Email:</label>
-        <input type="text" id="email" name="email" required>
+        <input type="email" id="email" name="email" required>
 
         <label for="numero">Numero de celular:</label>
         <input type="number" id="numero" name="numero" required>
 
-        <label>Assunto:</label>
-        <select name="assunto">
-            <option value="elogio">Elogio</option>
-            <option value="sugestao">Sugestão</option>
-            <option value="reclamaçao">Reclamação</option>
-        </select>
+       
         <label>Avaliação da Marca</label>
         <input type="radio" name="nota" value="1">1
         <input type="radio" name="nota" value="2">2
@@ -50,36 +45,56 @@
         <input type="radio" name="nota" value="5">5
 
         <label>Avaliação das Categoria</label>
-        <input name="roupas">Roupas:
-        <input type="radio" name="nota" value="1">1
-        <input type="radio" name="nota" value="2">2
-        <input type="radio" name="nota" value="3">3
-        <input type="radio" name="nota" value="4">4
-        <input type="radio" name="nota" value="5">5
+        <input type="checkbox" name="nota-roupas">Roupas:
+        <input type="radio" name="avaliaçao-roupa" value="1">1
+        <input type="radio" name="avaliaçao-roupa" value="2">2
+        <input type="radio" name="avaliaçao-roupa" value="3">3
+        <input type="radio" name="avaliaçao-roupa" value="4">4
+        <input type="radio" name="avaliaçao-roupa" value="5">5
 
-        <input name="moveis">Móveis:
-        <input type="radio" name="nota" value="1">1
-        <input type="radio" name="nota" value="2">2
-        <input type="radio" name="nota" value="3">3
-        <input type="radio" name="nota" value="4">4
-        <input type="radio" name="nota" value="5">5
+        <input type="checkbox" name="nota-moveis">Móveis:
+        <input type="radio" name="avaliaçao-moveis" value="1">1
+        <input type="radio" name="avaliaçao-moveis" value="2">2
+        <input type="radi>volte para a loja</a>
+        
 
-        <input name="acessorios">Acessórios:
-        <input type="radio" name="nota" value="1">1
-        <input type="radio" name="nota" value="2">2
-        <input type="radio" name="nota" value="3">3
-        <input type="radio" name="nota" value="4">4
-        <input type="radio" name="nota" value="5">5
+  <li><a href="geral.html" class="ativa">Início</a></li>
+                <li> <a href="Sobre-nos.html">Nossa historia</a></li>
+                <li><a href="formulario.html">Contatos</a></li>  </footer>o" name="avaliaçao-moveis" value="3">3
+        <input type="radio" name="avaliaçao-moveis" value="4">4
+        <input type="radio" name="avaliaçao-moveis"value="5">5
 
+        <input type="checkbox" name="nota-acessorios">Acessórios:
+        <input type="radio" name="avaliaçao-acessorios" value="1">1
+        <input type="radio" name="avaliaçao-acessorios" value="2">2
+        <input type="radio" name="avaliaçao-acessorios"value="3">3
+        <input type="radio" name="avaliaçao-acessorios"value="4">4
+        <input type="radio" name="avaliaçao-acessorios"value="5">5
 
+ <label>Assunto:</label>
+        <select name="assunto">
+            <option value="elogio">Elogio</option>
+            <option value="sugestao">Sugestão</option>
+            <option value="reclamaçao">Reclamação</option>
+        </select>
         <label for="mensagem">Mensagem:</label>
-        <textarea id="mensagem" name="mensagem" rows="5"></textarea>
+        <textarea id="mensagem" name="mensagem" rows="7"></textarea>
 
         <input type="submit" value="enviar">
         <input type="reset" value="limpar">
            
         
     </form>
+
+    <footer class="contato">
+        <h2><strong>Contatos</strong></h2>
+        <p>Endereço: Pelotas-RS, rua Almirante Barroso</p>
+        <p>Email:mybabystore@gmail.com</p>
+        <p>Numero:(53) 98156-8354</p>
+        <a href="geral.html" target="_blank">volte para a loja</a>
+        
+
+    </footer>
     
 </body>
 </html>
