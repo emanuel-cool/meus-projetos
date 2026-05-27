@@ -1,5 +1,8 @@
 body {
       background-color: rgb(234, 231, 232);
+      max-width: 100%;
+      min-width: 0;
+      margin: 0 auto;
     }
 h1 {
     text-align: center;
@@ -101,9 +104,11 @@ nav ul li a{
   color: white;
   display: inline-block;
   width: 100%;
-  font-size: 2em;
+  font-size: 1.8em;
   float: none;
   padding-left: 2em;
+  cursor: pointer;
+  cursor: move;
 
 }
 
@@ -138,244 +143,6 @@ nav ul li a.ativa{
   transition: all 0.5s;
   background-color: rgba(193, 168, 158, 0.835);
   display: inline-block;
-  
-}
-
-.card img{
-  width: 75%;
-}
-
-.card:hover{
-  box-shadow: 0.3em 0.3em 0.9em #767575
-}
-figure{
-  margin: 0 auto;
-  text-align: center;
-}
-.contato{
-  
-  text-align:center;
-  width: 100%;
-  background-color: #bdbaba;
-  padding: 2em;
-  margin-top: 3em;
-
-}
-.contato a{
-  text-decoration: none;
-}
-.contato a:hover{
-  text-decoration: underline;
-}
-aside{
-  text-align: center;
-}
-
-form label{
-  display: block;
-
-}
-form{
-  width: 50%;
-  margin: 0 auto;
-}
-
-form input{
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  padding: 0.5em;
-  font-size: 1em;
-}
-
-form select{
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-
-}
-
-form textarea{
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-
-}
-
-form input[type="radio"],
-form input[type="checkbox"] {
-  display:inline;
-  width: auto;
-}
-
-
-table{
-  
-  width: 100%;
-  text-align: center;
-  font-size: 140%;
-}
-table tr {
-  border:6cm black solid;
-  margin: 2 auto;
-
-}
-
-table tr:hover{
-  background-color: #767575;
-  color: white;
-}
-table th{
-  background-color: #767575;
-  color: white;
-  
-}
-.caption{
-  text-align: center;
-  margin-bottom: 0.4cm;
-  background-color: #565656;
-  color: white;
-}body {
-      background-color: rgb(234, 231, 232);
-    }
-h1 {
-    text-align: center;
-    font-family: "montserrat";
-    font-weight: 400;
-    margin-top: 0.5cm;
-  }
-
-h2{
-  text-align: center;
-  font-family: "montserrat";
-  font-size: 230%;
-  margin-top: 1cm;
-}
-p {
-    font-size: 150%;
-    text-align:center;
-    color:black;
-    font-family:poppins;
-
-  }
-.conteudo {
- margin-bottom: 10%;
- text-align: center;
-}
-  .info{
-  font-size: 170%;
-  margin-left: 2cm;
-  margin-right: 2cm;
-  color: black;
-  font-family:"Open Sans";
-  width: 80%;
-  text-align: justify;
-  margin: 1em auto;
-}
-.info2{
-  font-size: 170%;
-  margin-left: 2cm;
-  margin-right: 2cm;
-  color: black;
-  font-family:"Open Sans";
-  width: 80%;
-  text-align: center;
-  margin: 1em auto;
-
-}
-.img-fabrica{
-  border-radius: 1em;
-  display: block;
-  margin: 0 auto;
-  width: 45%;
-}
-.imglogo{
-  width: 18cm;
-  margin: 4cm 0 0 19cm;
-    
-  /* //margin-left: 21%; */
-  
-
-}
-.imgbebes{
-  width: 28cm;
-  margin-top:10%;
- 
-
-  /* margin-left: 27%; */
-
-}
-.img3{
-  width: 7%;
-  float: left;
-  
-  margin-left: 0;
-
-}
-
-nav {
-  color:rgb(57, 132, 167);
-  transition: all 0.3s ease;
-  position:absolute;
-  margin-top: -0.4%;
-  right: 0;
-  background-color: rgb(45, 183, 183);
-  width: 100%;
-
-}
-nav ul{
-  list-style: none;
-  padding: 0% 0 0 5em;
-  margin: 2.5em 0 0 50em;
-}
-nav ul li {
-  display: inline-block;
-  padding: 1em;
-}
-
-nav ul li a{
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-  width: 100%;
-  font-size: 2em;
-  float: none;
-  padding-left: 1.4em;
-
-}
-
-nav ul li a:hover{
-  color:rgb(31, 31, 177);
-
-}
-nav ul li a.ativa{
-  background-color:rgb(182, 46, 132);
-  color:white;
-
-}
-
-#cabecalho{
-  background-color: aqua;
-  padding:1em;
-  max-width: 30%;
-  min-width: 0;
-}
-
-
-.section{
-  display: flex;
-}
-.card{
-  border: 0.1em solid #c9a491;
-  border-radius: 0.4em;
-  padding: 1em;
-  margin: 2.3em;
-  width: 28%;
-  text-align: center;
-  transition: all 0.5s;
-  background-color: rgba(193, 168, 158, 0.835);
-  display: inline-block;
-  transition:2s;
   
 }
 .card1{
@@ -388,8 +155,6 @@ nav ul li a.ativa{
   transition: all 0.5s;
   background-color: rgba(157, 80, 50, 0.835);
   display: inline-block;
-  
-  
 }
 
 .card img{
@@ -398,7 +163,6 @@ nav ul li a.ativa{
 .card1 img{
   width: 75%;
 }
-
 .card:hover{
   box-shadow: 0.3em 0.3em 0.9em #767575
 }
@@ -478,7 +242,7 @@ table tr {
 
 }
 
-table td:hover{
+table tr:hover{
   background-color: #767575;
   color: white;
 }
